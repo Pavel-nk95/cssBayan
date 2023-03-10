@@ -1,0 +1,41 @@
+/* lato-regular */
+@font-face {
+    font-weight: 400;
+    font-family: Lato;
+    font-style: normal;
+    src: url("../fonts/lato-regular.woff2") format("woff2");
+    src: url("../fonts/lato-regular.woff") format("woff");
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Lato, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  ul, li {
+    list-style: none; 
+  }
+  
+  a {
+    text-decoration: none; 
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto; 
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    padding: 0 1.2rem;
+  }
