@@ -96,3 +96,25 @@ img {
   max-height: 100vh;
   opacity: 1;
 }
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 0;
+    max-width: 36rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .accordion__label {
+    font-size: 1rem;
+    background-size: 1rem 1rem;
+  }
+
+  .accordion__item>.accordion__toggle:checked~.accordion__label {
+    background-size: 1rem 1rem;
+  }
+}
